@@ -2,7 +2,7 @@
 
 .. currentmodule:: sphinx.websupport.search
 
-Search Adapters
+搜索适配器
 ===============
 
 To create a custom search adapter you will need to subclass the
@@ -22,7 +22,7 @@ documentation of the :class:`BaseSearch` class below.
    Defines an interface for search adapters.
 
 
-BaseSearch Methods
+基本搜索方法
 ~~~~~~~~~~~~~~~~~~
 
    The following methods are defined in the BaseSearch class. Some methods do

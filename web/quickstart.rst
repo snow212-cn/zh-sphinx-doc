@@ -95,7 +95,7 @@ integrate with your existing templating system.  An example using `Jinja2
    {%- endblock %}
 
 
-Authentication
+权限认证
 --------------
 
 To use certain features such as voting, it must be possible to authenticate
