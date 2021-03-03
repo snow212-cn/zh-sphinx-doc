@@ -2,12 +2,12 @@
 
 .. _domains:
 
-Sphinx Domains
+Sphinx 域
 ==============
 
 .. versionadded:: 1.0
 
-What is a Domain?
+什么是域?
 -----------------
 
 Originally, Sphinx was conceived for a single project, the documentation of the
@@ -17,6 +17,8 @@ built in -- the most fundamental directives, like ``function``, were designed
 for Python objects.  Since Sphinx has become somewhat popular, interest
 developed in using it for many different purposes: C/C++ projects, JavaScript,
 or even reStructuredText markup (like in this documentation).
+
+最初的Sphinx被构想为一个单一的项目，文档的设计被用于Python语言。不久之后，.....
 
 While this was always possible, it is now much easier to easily support
 documentation of projects using different programming languages or even ones not
@@ -40,7 +42,7 @@ domain API is documented as well, in the section :ref:`domain-api`.
 
 .. _basic-domain-markup:
 
-Basic Markup
+基本标记
 ------------
 
 Most domains provide a number of :dfn:`object description directives`, used to
@@ -117,11 +119,10 @@ In short:
   refer to ``Queue.Queue.get`` but only display ``get`` as the link text.
 
 
-The Python Domain
+Python域名
 -----------------
 
-The Python domain (name **py**) provides the following directives for module
-declarations:
+Python域（name **py**）指令在下面的模块中声明:
 
 .. rst:directive:: .. py:module:: name
 
@@ -273,7 +274,7 @@ The following directives are provided for module and class contents:
 
 .. _signatures:
 
-Python Signatures
+Python 签名
 ~~~~~~~~~~~~~~~~~
 
 Signatures of functions, methods and class constructors can be given like they
@@ -431,7 +432,7 @@ method, but the visible link caption will only be ``close()``.
 
 .. _c-domain:
 
-The C Domain
+C域名
 ------------
 
 The C domain (name **c**) is suited for documentation of C API.
@@ -504,7 +505,7 @@ defined in the documentation:
    Reference a C-language type.
 
 
-The C++ Domain
+C++ 域
 --------------
 
 The C++ domain (name **cpp**) supports documenting C++ projects.
@@ -609,7 +610,7 @@ These roles link to the given object types:
    version of the method / function.
 
 
-The Standard Domain
+标准域
 -------------------
 
 The so-called "standard" domain collects all markup that doesn't warrant a
@@ -685,7 +686,7 @@ any domain:
          You can set this variable to select a paper size.
 
 
-The JavaScript Domain
+JavaScript 域
 ---------------------
 
 The JavaScript domain (name **js**) provides the following directives:
@@ -757,7 +758,7 @@ These roles are provided to refer to the described objects:
           js:attr
 
 
-The reStructuredText domain
+reStructuredText 域
 ---------------------------
 
 The reStructuredText domain (name **rst**) provides the following directives:
@@ -808,7 +809,7 @@ These roles are provided to refer to the described objects:
               rst:role
 
 
-More domains
+更多关于域的资料
 ------------
 
 The sphinx-contrib_ repository contains more domains available as extensions;

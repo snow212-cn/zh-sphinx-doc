@@ -2,7 +2,7 @@
 
 .. _templating:
 
-Templating
+模板
 ==========
 
 Sphinx uses the `Jinja <http://jinja.pocoo.org>`_ templating engine for its HTML
@@ -12,6 +12,7 @@ excellent documentation for those who need to make themselves familiar with it.
 
 
 Do I need to use Sphinx' templates to produce HTML?
+我是否需要使用 Sphinx' 的模板来生成HTML
 ---------------------------------------------------
 
 No.  You have several other options:
@@ -29,7 +30,7 @@ No.  You have several other options:
   or use them in your Web application.
 
 
-Jinja/Sphinx Templating Primer
+Jinja/Sphinx 模板入门
 ------------------------------
 
 The default templating language in Sphinx is Jinja.  It's Django/Smarty inspired
@@ -74,13 +75,13 @@ render the block's content in the extended template -- unless you don't want
 that content to show up.
 
 
-Working with the builtin templates
+使用内建模板
 ----------------------------------
 
 The builtin **basic** theme supplies the templates that all builtin Sphinx
 themes are based on.  It has the following elements you can override or use:
 
-Blocks
+块
 ~~~~~~
 
 The following blocks exist in the ``layout.html`` template:
@@ -171,7 +172,7 @@ is deprecated in favor of separate sidebar templates, which can be included via
     .. deprecated:: 1.0
 
 
-Configuration Variables
+配置变量
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Inside templates you can set a couple of variables used by the layout template
@@ -205,7 +206,7 @@ Overriding works like this::
    Similar to :data:`script_files`, for CSS files.
 
 
-Helper Functions
+帮助函数
 ~~~~~~~~~~~~~~~~
 
 Sphinx provides various Jinja functions as helpers in the template.  You can use
@@ -234,7 +235,7 @@ them to generate links or output multiply used elements.
    Return the rendered relation bar.
 
 
-Global Variables
+全局变量
 ~~~~~~~~~~~~~~~~
 
 These global variables are available in every template and are safe to use.

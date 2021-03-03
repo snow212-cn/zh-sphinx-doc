@@ -1,6 +1,6 @@
 .. highlightlang:: python
 
-HTML theming support
+HTML 主题支持
 ====================
 
 .. versionadded:: 0.6
@@ -15,7 +15,7 @@ Themes are meant to be project-unaware, so they can be used for different
 projects without change.
 
 
-Using a theme
+使用主题
 -------------
 
 Using an existing theme is easy.  If the theme is builtin to Sphinx, you only
@@ -49,7 +49,7 @@ file :file:`blue.zip`, you can put it right in the directory containing
 
 .. _builtin-themes:
 
-Builtin themes
+内建主题
 --------------
 
 .. cssclass:: right
@@ -205,7 +205,7 @@ These themes are:
   readers.
 
 
-Creating themes
+创建主题
 ---------------
 
 As said, themes are either a directory or a zipfile (whose name is the theme
@@ -249,7 +249,7 @@ Python :mod:`ConfigParser` module) and has the following structure:
   and are accessible from all templates as ``theme_<name>``.
 
 
-Templating
+模板
 ~~~~~~~~~~
 
 The :doc:`guide to templating <templating>` is helpful if you want to write your
@@ -266,7 +266,7 @@ user ``templates_path`` template, you can still use the "exclamation mark"
 syntax as described in the templating document.
 
 
-Static templates
+静态模板
 ~~~~~~~~~~~~~~~~
 
 Since theme options are meant for the user to configure a theme more easily,

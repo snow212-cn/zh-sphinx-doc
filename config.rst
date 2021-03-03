@@ -2,7 +2,7 @@
 
 .. _build-config:
 
-The build configuration file
+生成配置文件
 ============================
 
 .. module:: conf
@@ -46,7 +46,7 @@ Important points to note:
   to change.
 
 
-General configuration
+一般配置
 ---------------------
 
 .. confval:: extensions
@@ -241,7 +241,7 @@ General configuration
    .. versionadded:: 1.1
 
 
-Project information
+项目信息
 -------------------
 
 .. confval:: project
@@ -346,7 +346,7 @@ Project information
 
 .. _intl-options:
 
-Options for internationalization
+国际化选项
 --------------------------------
 
 These options influence Sphinx' *Native Language Support*.  See the
@@ -423,7 +423,7 @@ documentation on :ref:`intl` for details.
 
 .. _html-options:
 
-Options for HTML output
+HTML 输出选项
 -----------------------
 
 These options influence HTML as well as HTML Help output, and other builders
@@ -764,7 +764,7 @@ that use Sphinx' HTMLWriter class.
 
 .. _epub-options:
 
-Options for epub output
+epub 输出选项
 -----------------------
 
 These options influence the epub output.  As this builder derives from the HTML
@@ -884,7 +884,7 @@ the `Dublin Core metadata <http://dublincore.org/>`_.
 
 .. _latex-options:
 
-Options for LaTeX output
+LaTeX 输出选项
 ------------------------
 
 These options influence LaTeX output.
@@ -1090,7 +1090,7 @@ These options influence LaTeX output.
 
 .. _text-options:
 
-Options for text output
+text 输出选项
 -----------------------
 
 These options influence text output.
@@ -1121,7 +1121,7 @@ These options influence text output.
 
 .. _man-options:
 
-Options for manual page output
+手册页面输出选项
 ------------------------------
 
 These options influence manual page output.
@@ -1158,7 +1158,7 @@ These options influence manual page output.
 
 .. _texinfo-options:
 
-Options for Texinfo output
+Texinfo 输出选项
 --------------------------
 
 These options influence Texinfo output.
@@ -1260,7 +1260,7 @@ These options influence Texinfo output.
    .. versionadded:: 1.1
 
 
-Options for the linkcheck builder
+linkcheck 构建选项
 ---------------------------------
 
 .. confval:: linkcheck_ignore

@@ -6,7 +6,7 @@ Sphinx FAQ
 This is a list of Frequently Asked Questions about Sphinx.  Feel free to
 suggest new entries!
 
-How do I...
+如何做...
 -----------
 
 ... create PDF files without LaTeX?
@@ -39,7 +39,7 @@ How do I...
 
 .. _usingwith:
 
-Using Sphinx with...
+Sphinx 的使用...
 --------------------
 
 Read the Docs
@@ -116,7 +116,7 @@ Google Analytics
 
 .. _epub-faq:
 
-Epub info
+电子信息
 ---------
 
 The epub builder is currently in an experimental stage.  It has only been tested
@@ -163,7 +163,7 @@ some notes:
 
 .. _texinfo-faq:
 
-Texinfo info
+Texinfo 信息
 ------------
 
 The Texinfo builder is currently in an experimental stage but has successfully
@@ -179,7 +179,7 @@ color display and supports extensive customization (of course).
 
 .. _texinfo-links:
 
-Displaying Links
+显示超链接
 ~~~~~~~~~~~~~~~~
 
 One noticeable problem you may encounter with the generated Info files is how
@@ -227,7 +227,7 @@ Info files, try adding the following Emacs Lisp code to your start-up file,
                 'hide)))))
 
 
-Notes
+笔记
 ~~~~~
 
 The following notes may be helpful if you want to create Texinfo files:

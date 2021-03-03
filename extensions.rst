@@ -1,13 +1,12 @@
 .. _extensions:
 
-Sphinx Extensions
+Sphinx 扩展
 =================
 
 .. module:: sphinx.application
    :synopsis: Application class and extensibility interface.
 
-Since many projects will need special features in their documentation, Sphinx is
-designed to be extensible on several levels.
+由于许多项目在他们的文档中需要一些特殊功能，Sphinx 在几个不同的层次上提供了扩展。
 
 This is what you can do in an extension: First, you can add new
 :term:`builder`\s to support new output formats or actions on the parsed
@@ -32,7 +31,7 @@ The configuration file itself can be treated as an extension if it contains a
    ext/builderapi
 
 
-Builtin Sphinx extensions
+Sphinx内建扩展
 -------------------------
 
 These extensions are built in and can be activated by respective entries in the
@@ -56,7 +55,7 @@ These extensions are built in and can be activated by respective entries in the
    ext/oldcmarkup
 
 
-Third-party extensions
+第三方扩展
 ----------------------
 
 You can find several extensions contributed by users in the `Sphinx Contrib`_
@@ -74,10 +73,10 @@ list (`join here <http://groups.google.com/group/sphinx-dev>`_).
 .. _Sphinx Contrib: https://www.bitbucket.org/birkenfeld/sphinx-contrib
 
 
-Where to put your own extensions?
+在哪里放置你的扩展?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Extensions local to a project should be put within the project's directory
+扩展 local to a project should be put within the project's directory
 structure.  Set Python's module search path, ``sys.path``, accordingly so that
 Sphinx can find them.
 E.g., if your extension ``foo.py`` lies in the ``exts`` subdirectory of the

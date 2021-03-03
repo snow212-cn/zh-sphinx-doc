@@ -1,12 +1,12 @@
 .. _builders:
 
-Available builders
+可用选项
 ==================
 
 .. module:: sphinx.builders
    :synopsis: Available built-in builder classes.
 
-These are the built-in Sphinx builders.  More builders can be added by
+这些都是内置的sphinx选项，关于更多的信息可以查看
 :ref:`extensions <extensions>`.
 
 The builder's "name" must be given to the **-b** command-line option of
@@ -280,7 +280,7 @@ Built-in Sphinx extensions that offer more builders are:
 
 .. _serialization-details:
 
-Serialization builder details
+序列化生成器规则
 -----------------------------
 
 All serialization builders outputs one file per source file and a few special

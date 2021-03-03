@@ -3,6 +3,8 @@
 
 
 import sys, os
+#import sphinx.ext
+
 project = u'Sphinx 使用手册'
 copyright = u''
 version = u''
@@ -10,9 +12,9 @@ release = u''
 
 source_suffix = '.rst'
 master_doc = 'contents'
-language = 'en_US'
+language = 'zh_CN'
 exclude_patterns = ['_build']
-extensions = ['sphinx.ext.pngmath']
+# extensions = ['sphinx.ext.pngmath']
 pygments_style = 'sphinx'
 
 html_title = u'Sphinx 使用手册'
@@ -33,7 +35,7 @@ exclude_patterns = ['README.rst']
 context = {
     'MEDIA_URL': "/media/",
     'slug': 'sphinx',
-    'name': u'sphinx使用手册',
+    'name': u'sphinx使用中文手册',
     'analytics_code': 'None',
 }
 
